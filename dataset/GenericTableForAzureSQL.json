@@ -1,0 +1,31 @@
+{
+	"name": "GenericTableForAzureSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AllAzureSQLDB",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"logicalservername": {
+					"value": "@dataset().logicalservername",
+					"type": "Expression"
+				},
+				"databasename": {
+					"value": "@dataset().databasename",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"logicalservername": {
+				"type": "string"
+			},
+			"databasename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

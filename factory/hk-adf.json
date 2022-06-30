@@ -1,0 +1,9 @@
+{
+	"name": "hk-adf",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3e5a4ff7-8704-4ebc-acf7-9a6d64a6fffb",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
