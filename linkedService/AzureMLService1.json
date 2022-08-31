@@ -1,0 +1,13 @@
+{
+	"name": "AzureMLService1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureMLService",
+		"typeProperties": {
+			"subscriptionId": "76eb1afa-141b-4785-8566-179d834d300c",
+			"resourceGroupName": "basic-components",
+			"mlWorkspaceName": "hk-azure-ml",
+			"authentication": "MSI"
+		}
+	}
+}
