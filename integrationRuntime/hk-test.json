@@ -1,0 +1,6 @@
+{
+	"name": "hk-test",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
